@@ -1,0 +1,38 @@
+[36mRun starting. Expected test count is: 0[0m
+[32mNegativeSpec:[0m
+[32mThe user[0m
+[32m- should not be able to add any empty todos[0m
+[32m  + Given the user is on the TodoMVC application page [0m
+[32m  + When the user submits a blank todo item [0m
+[32m  + Then the new todo item should not be added to the list [0m
+[32m  + When the user tries to submit a space as a todo item [0m
+[32m  + Then the new todo item should not be added to the list [0m
+[32mThe user[0m
+[32m- should not be able to clear any todos which is not completed[0m
+[32m  + Given the user is on the TodoMVC application page [0m
+[32m  + When the user submits a todo item [0m
+[32m  + Then the new todo item should be added to the list [0m
+[32m  + And the user clicks on clear completed button [0m
+[32m  + Then the todo still remains in active status  [0m
+[32mThe user[0m
+[32m- should be able to edit any completed todos[0m
+[32m  + Given the user is on the TodoMVC application page [0m
+[32m  + When the user submits a todo item [0m
+[32m  + Then the new todo item should be added to the list [0m
+[32m  + And the user marks todo as complete [0m
+[32m  + Then the todo item should be marked as completed [0m
+[32m  + And the user tries to edit the todo item [0m
+[32m  + Then the todo item should be updated with the new text [0m
+[32mThe user[0m
+[32m- should be able to mark any completed todos as Active using toggle[0m
+[32m  + Given the user is on the TodoMVC application page [0m
+[32m  + When the user submits a todo item [0m
+[32m  + And the user marks todo as complete [0m
+[32m  + Then the todo item should be marked as completed [0m
+[32m  + And the user clicks on the toggle all button [0m
+[32m  + Then the todo should become active again [0m
+[36mRun completed in 43 seconds, 487 milliseconds.[0m
+[36mTotal number of tests run: 4[0m
+[36mSuites: completed 1, aborted 0[0m
+[36mTests: succeeded 4, failed 0, canceled 0, ignored 0, pending 0[0m
+[32mAll tests passed.[0m
