@@ -30,7 +30,7 @@ The `run_tests.sh` script defaults to the `local` environment with the locally i
 Test report is generated in folder - ```/target/test-reports```
 
 # Screenshots
-Screenshots will be added after the end of each scenario in the folder - ```/ToDoList/test-reports```
+Screenshots will be added after the end of each scenario in the folder - ```/ToDoList/screenshots```
 
 # Additional Information
 **Configuration**: If needed, you can modify the test configurations such as browser settings or test data in the src/test/resources/application.conf file.
